@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSI + SMA Trading Signal</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Line Awesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1><i class="las la-chart-line"></i> RSI + SMA Trading Signal</h1>
+    <div class="live-data">
+      <p><i class="las la-signal"></i> <strong>Live Tick Data:</strong> <span id="live-tick" class="tick-data">N/A</span></p>
+    </div>
+    <div class="results">
+      <p><i class="las la-chart-pie"></i> <strong>RSI Value:</strong> <span id="rsi-value">N/A</span></p>
+      <p><i class="las la-ruler"></i> <strong>5-Period SMA:</strong> <span id="sma-value">N/A</span></p>
+      <p><i class="las la-bell"></i> <strong>Signal:</strong> <span id="signal">N/A</span></p>
+    </div>
+    <div class="status">
+      <h2><i class="las la-cog"></i> Trading Status</h2>
+      <p id="trade-status"><i class="las la-hourglass-half"></i> Waiting for Signal...</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

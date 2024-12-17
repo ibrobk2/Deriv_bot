@@ -1,0 +1,73 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #444;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  strong {
+    color: #007bff;
+  }
+  
+  /* Tick Data Styling */
+  .tick-data {
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .tick-data.up {
+    color: #007bff; /* Blue for upward tick */
+  }
+  
+  .tick-data.down {
+    color: #dc3545; /* Red for downward tick */
+  }
+  
+  /* Results Styling */
+  .results p, .status p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .results i, .status i {
+    margin-right: 8px;
+    color: #007bff;
+  }
+  
+  #trade-status {
+    font-weight: bold;
+    color: #ff6b6b;
+    font-size: 20px;
+  }
+  
+  /* Icons */
+  .las {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
